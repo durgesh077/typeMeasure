@@ -1,0 +1,34 @@
+.textBox{
+  margin-top:10px;
+  color:gray;
+  background-color:rgb(160, 87, 58) ;
+  height: 500px;
+  box-sizing: border-box;
+  border:9px solid black;
+  box-shadow:inset 0 0 9px black;
+  padding:30px;
+  font-size:25px;
+  font-family: monospace,Arial, Helvetica, sans-serif;
+  word-break: break-all;
+  transition: background-color 0.5s;
+  overflow:auto;
+}
+.textBox:focus-within{
+    background-color:lightsalmon;
+}
+.initialText{
+    margin:0;
+    padding:0;
+}
+.currentEntry{
+    background-color: yellow;
+}
+.wrongEntry{
+    background-color: tomato;
+}
+.rightEntry{
+    color:green;
+}
+
+
+
