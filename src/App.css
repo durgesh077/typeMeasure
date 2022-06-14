@@ -1,0 +1,33 @@
+body{
+  background-color:rgb(96, 145, 145);
+}
+*{
+  padding:4px;
+}
+#main{
+  width:60vw;
+  margin:auto;
+  border:8px double green;
+  padding:8px;
+}
+.statistics{
+  display: flex;
+  border:2px solid brown;
+}
+.statistics *{
+  text-align:center;
+  flex:1;
+  border:2px solid white;
+  margin:8px;
+  background-color:rgb(197, 154, 89);
+}
+
+.heading{
+      text-align:right;
+      padding-right:10px;
+      -webkit-text-stroke: 2px red;
+      font-size:4em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-decoration: 3px underline brown;
+    }
+
